@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+#heading{
+
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: white;
+}
+
+body{
+     background-color: rgb(134, 35, 43);
+}
+
+.container {
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.counter {
+    background-color: rgb(224, 9, 55);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: rgb(255, 255, 254) 0px 0px 19px 0px;
+}
+.counter p {
+    
+    font-size: 10rem;
+    text-align: center;
+    line-height: 1;
+    
+}
+
+.buttons {
+     text-align: center;
+     margin: 2rem;
+}
+
+.buttons #increment {
+    font-size: 1.5rem;
+    padding: 0.5rem  1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 10rem;
+}
+
+.buttons #decrement  {
+    font-size: 1.5rem;
+    padding: 0.5rem  1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border-radius: 10rem;
+    
+}
+
+.buttons #reset {
+    font-size: 1.5rem;
+    padding: 0.5rem  1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
